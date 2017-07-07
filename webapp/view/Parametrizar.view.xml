@@ -1,0 +1,109 @@
+<mvc:View xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:NavigationBar="sap.ui.ux3.NavigationBar" xmlns:footerbar="sap.ushell.ui.footerbar" xmlns:sap.ui.core="sap.ui.core" controllerName="Coinbo.controller.Parametrizar"><App xmlns="sap.m">
+		<pages>
+		<Page xmlns="sap.m" title="Datos de Parametrización">
+			<subHeader>
+				<Toolbar>
+					<Button icon="sap-icon://nav-back" press="onBack"/>
+					<Label class="sapUiMediumMargin" text="Parametrización" textAlign="Center"/>
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://decline" press="onClose"/>
+				</Toolbar>
+			</subHeader>
+			<content>
+				<IconTabBar selectedKey="__filter0" id="tabBar" select="onItemSelect">
+					<items>
+					   <IconTabFilter text="Repr." count="" icon="sap-icon://account" iconColor="Neutral" id="__filter0" key="0">
+					        <content>
+					            <Table id="reprTable" mode="MultiSelect" inset="false" selectionChange="onItemSelect" items="{path:'/data'}">
+									<columns>
+										<Column>
+											<Text text="Código"/>
+										</Column>
+										<Column>
+											<Text text="Descripción"/>
+										</Column>
+									</columns>
+									<items>
+										<ColumnListItem vAlign="Middle" type="Navigation" >
+											<cells>
+												<Text text="{cod}"/>
+												<Text text="{desc}"/>
+											</cells>
+										</ColumnListItem>
+									</items>
+								</Table>
+	        				 </content>
+	        			</IconTabFilter>
+	        			<IconTabFilter text="Comisión" count="" icon="sap-icon://simple-payment" iconColor="Neutral" id="__filter1" key="1">
+	        				<content>
+	        					<Table id="comisTable" mode="MultiSelect" inset="false" selectionChange="onItemSelect" items="{path:'/data'}">
+									<columns>
+										<Column >
+											<Text text="Código"/>
+										</Column>
+										<Column >
+											<Text text="Descripción"/>
+										</Column>
+									</columns>
+									<items>
+										<ColumnListItem vAlign="Middle" type="Navigation">
+											<cells>
+												<Text text="{cod}"/>
+												<Text text="{desc}"/>
+											</cells>
+										</ColumnListItem>
+									</items>
+								</Table>
+	        				</content>
+	        			</IconTabFilter>
+	        			<IconTabFilter text="Penalización" count="" icon="sap-icon://unpaid-leave" iconColor="Neutral" id="__filter2" key="2">
+	        				<content>
+		        				<Table id="penalTable" mode="MultiSelect" inset="false" selectionChange="onItemSelect" items="{path:'/data'}">
+										<columns>
+											<Column>
+												<Text text="Código"/>
+											</Column>
+											<Column>
+												<Text text="Rango de Mora"/>
+											</Column>
+											<Column>
+												<Text text="Descuento"/>
+											</Column>
+											<Column>
+												<Text text="Aplica a Representante"/>
+											</Column>
+											<Column>
+												<Text text="Aplica a Comisión"/>
+											</Column>
+										</columns>
+										<items>
+											<ColumnListItem vAlign="Middle" type="Navigation">
+												<cells>
+													<Text text="{cod}"/>
+													<Text text="{rango}"/>
+													<Text text="{porc}"/>
+													<Text text="{tipo}"/>
+													<Text text="{aplica}"/>
+												</cells>
+											</ColumnListItem>
+										</items>
+									</Table>
+	        				</content>
+	        			</IconTabFilter>	
+	        			</items>
+				</IconTabBar>
+			<!--	-->
+			</content><!-- sap.ui.core.Control -->
+			<footer>
+				<Toolbar>
+				
+											<Button id="BtnAdd" xmlns="sap.m" icon="sap-icon://add" type="Default"/>
+											<Button id="BtnEdit" xmlns="sap.m" icon="sap-icon://edit" type="Emphasized" />
+											<Button id="BtnReject" xmlns="sap.m" icon="sap-icon://decline" type="Reject" press="onDelete"/>
+										
+			</Toolbar>
+			</footer>	
+		</Page>
+		</pages><!-- sap.ui.core.Control -->
+	</App>
+</mvc:View>

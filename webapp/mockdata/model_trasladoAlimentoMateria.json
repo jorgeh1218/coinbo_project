@@ -1,0 +1,44 @@
+{
+	"data":[
+							{
+								"checked":true,
+								"cod": "112458",
+				    			"fecha": "11/03/2016",
+								"nombre":"Henry Farias",
+								"materiaPrima":false,
+								"tipoEmpleado":"chofer",
+								"transportado":120000,
+								"destino":"local"
+							},
+							{
+								"checked":true,
+								"cod": "245028",
+				    			"fecha": "11/03/2016",
+								"nombre":"Antonio Castañeda",
+								"materiaPrima":false,
+								"tipoEmpleado":"chofer",
+								"transportado":776,
+								"destino":"tucuabo"
+							},
+							{
+								"checked":true,
+								"cod": "10009",
+				    			"fecha": "11/03/2016",
+								"nombre":"Daniel Rivas",
+								"materiaPrima":true,
+								"tipoEmpleado":"chofer",
+								"transportado":776,
+								"destino":"local"
+							},
+							{
+								"checked":true,
+								"cod": "569970",
+				    			"fecha": "11/03/2016",
+								"nombre":"Jorge Rios",
+								"materiaPrima":true,
+								"tipoEmpleado":"chofer",
+								"transportado":776,
+								"destino":"foraneo"
+							}
+						]
+}

@@ -1,0 +1,17 @@
+{
+	"param":
+		{
+			"1":{
+					"cantidad":3000,
+					"pagar":1.68,
+					"chofer":0.75,
+					"ayudante":0.25
+			},
+			"2":{
+				"cantidad":9999,
+				"pagar":2.25,
+				"chofer":0.75,
+				"ayudante":0.25
+			}
+		}	
+}

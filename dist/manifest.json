@@ -1,0 +1,146 @@
+{
+    "_version": "1.1.0",
+    "sap.app": {
+        "_version": "1.1.0",
+        "id": "Coinbo",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "sourceTemplate": {
+            "id": "ui5template.basicSAPUI5ApplicationProject",
+            "version": "1.32.0"
+        }
+    },
+    "sap.ui": {
+        "_version": "1.1.0",
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": [
+            "sap_hcb",
+            "sap_bluecrystal"
+        ]
+    },
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "rootView": {
+            "viewName": "Coinbo.view.App",
+            "type": "XML"
+        },
+        "dependencies": {
+            "minUI5Version": "1.30.0",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+                "sap.ui.layout": {}
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "Coinbo.i18n.i18n"
+                }
+            }
+        },
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/style.css"
+                }
+            ]
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "viewPath": "Coinbo.view",
+                "controlId": "app",
+                "controlAggregation": "pages"
+            },
+            "routes": [
+                {
+                    "pattern": "",
+                    "name": "login",
+                    "target": "login"
+                },
+                {
+                    "pattern": "inicio",
+                    "name": "inicio",
+                    "target": "inicio"
+                },
+                {
+                    "pattern": "option",
+                    "name": "option",
+                    "target": "option"
+                },
+                {
+                    "name": "parametrizar",
+                    "pattern": "parametrizar",
+                    "target": "parametrizar"
+                },
+                {
+                    "name": "detail",
+                    "pattern": "detail",
+                    "target": "detail"
+                },
+                {
+                    "name": "calcular",
+                    "pattern": "calcular",
+                    "target": "calcular"
+                },
+                {
+                    "name": "aprobar",
+                    "pattern": "aprobar",
+                    "target": "aprobar"
+                }
+            ],
+            "targets": {
+                "inicio": {
+                    "viewName": "Inicio"
+                },
+                "login": {
+                    "viewName": "Login"
+                },
+                "option": {
+                    "viewName": "Option"
+                },
+                "parametrizar": {
+                    "viewName": "Parametrizar"
+                },
+                "detail": {
+                    "viewName": "Detail"
+                },
+                "calcular": {
+                    "viewName": "Table2"
+                },
+                "aprobar": {
+                    "viewName": "View1"
+                }
+            }
+        }
+    },
+    "sap.platform.hcp": {
+        "uri": "",
+        "_version": "1.1.0"
+    }
+}

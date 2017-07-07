@@ -1,0 +1,46 @@
+<mvc:View
+    controllerName="Coinbo.controller.Inicio"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<App>
+		<Page title="{i18n>homePageTitle}">
+		    <headerContent>
+				<Image src="{img>/products/pic1}" height="100%"	width="100%"/>
+			</headerContent>
+			<subHeader>
+				<Toolbar>
+					<Label class="sapUiMediumMargin" text="Inicio" textAlign="Center"/>
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://decline" press="onClose"/>
+				</Toolbar>
+			</subHeader>
+			<content>
+				<TileContainer>
+					<StandardTile id="Coinbo_Param" icon = "sap-icon://action-settings" type = "Monitor" title = "Opciones de parametrización" press = "toParameters"/>
+					<StandardTile id="Coinbo_Comision" icon = "sap-icon://activity-individual" number = "CO" numberUnit = "Comisiones" 
+								  title = "Por ventas" info = "%" press = "toOption" infoState = "Error"/>
+					<StandardTile id="Coinbo_Planta" icon = "sap-icon://travel-expense-report" number = "IN" numberUnit = "Incentivos" type = "Create" 
+								  title = "Por producción - Planta Clasificadora de Huevos" info = "$" infoState = "Success" press="toOption"/>
+					<StandardTile id="Coinbo_Nucleo" icon = "sap-icon://travel-expense-report" number = "IN" numberUnit = "Incentivos" type = "Create" 
+								  title = "Por producción - Núcleo Avícola" info = "$" infoState = "Success" press="toOption"/>
+					<StandardTile id="Coinbo_Huevos" icon =  "sap-icon://waiver" number = "BO" numberUnit = "Bonificaciones" type = "Create" 
+								  title = "Por transporte - Traslado por huevos" info = "$" infoState = "Success" press="toOption"/>
+					<StandardTile id="Coinbo_Aves" icon =  "sap-icon://waiver" number = "BO" numberUnit = "Bonificaciones" type = "Create" 
+								  title = "Por transporte - Traslado por aves" info = "$" infoState = "Success" press="toOption"/>
+					<StandardTile id="Coinbo_Alimentos" icon =  "sap-icon://waiver" number = "BO" numberUnit = "Bonificaciones" type = "Create" 
+								  title = "Por transporte - Traslado de alimentos y materia prima" info = "$" infoState = "Success" press="toOption"/>
+					<StandardTile id="Coinbo_Otros" icon =  "sap-icon://waiver" number = "OT" numberUnit = "Otros" type = "Create" 
+								  title = "Otros Traslados" info = "$" infoState = "Success" press="toOption"/>
+				</TileContainer>
+			</content>
+			<footer>
+				<Toolbar class ="sapUiAccent5">
+					<ToolbarSpacer/>
+					    <Text class ="myCustomText" text="{i18n>footPage}" textAlign="Center"/>
+					<ToolbarSpacer/>
+				</Toolbar>
+			</footer>
+		</Page>
+	</App>
+</mvc:View>

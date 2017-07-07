@@ -1,0 +1,100 @@
+{
+	"param":
+	{
+		"021":
+		{
+			"100":
+			{
+				"0":{"cantidad":200, "pagar":2.4},
+				"1":{"cantidad":400, "pagar":9.6},
+				"2":{"cantidad":600, "pagar":17},
+				"3":{"cantidad":0, "pagar":22}
+			},
+			"110":
+			{
+				"0":{"cantidad":0, "pagar":20}
+			}
+		},
+		"022":
+		{
+			"ventaPollo":
+			{
+				
+			},
+			"ventaHuevos":
+			{
+				
+			}
+		},
+		"023":
+		{
+			"ventaPollo":
+			{
+				
+			},
+			"ventaHuevos":
+			{
+				
+			}
+		},
+		"024":
+		{
+			"ventaPollo":
+			{
+				
+			},
+			"ventaHuevos":
+			{
+				
+			}
+		},
+		"025":
+		{
+			"300":
+			{
+				"0":{"cantidad":8000, "pagar":0.16},
+				"1":{"cantidad":14000, "pagar":0.17},
+				"2":{"cantidad":0, "pagar":0.28}
+			},
+			"310":
+			{
+				"0":{"cantidad":1000, "pagar":0.24},
+				"1":{"cantidad":3000, "pagar":0.27},
+				"2":{"cantidad":0, "pagar":0.37}
+			}
+		},
+		"026":
+		{
+			"ventaPollo":
+			{
+				
+			},
+			"ventaHuevos":
+			{
+				
+			}
+		},
+		"027":
+		{
+			"ventaPollo":
+			{
+				
+			},
+			"ventaHuevos":
+			{
+				
+			}
+		},
+		"028":
+		{
+			"ventaPollo":
+			{
+				
+			},
+			"ventaHuevos":
+			{
+				
+			}
+		}
+	}
+}

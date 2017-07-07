@@ -1,0 +1,58 @@
+{
+				"data":[
+						{
+							"cod": "079530203922",
+			    			"fecha": "15/01/2016",
+			    			"titular":"Jose Saramago",
+			    			"pagar":"25.000Bsf.",
+			    			"cajasSinMora":295.5,
+							"cajasConMora":7,
+							"montoNetoDebito":27362.5,
+							"diasRecuperarCh":2,
+							"kgAvesEnteras":12713.40,
+							"kgAvesDespresadas":1713.58,
+							"tipo":"021"
+						},
+						{
+							"cod": "093820192021",
+			    			"fecha": "20/01/2016",
+			    			"titular":"Pablo Diaz",
+			    			"pagar":"45.000Bsf.",
+			    			"cajasSinMora":295.5,
+							"cajasConMora":7,
+							"montoNetoDebito":27362.5,
+							"diasRecuperarCh":2,
+							"kgAvesEnteras":12713.40,
+							"kgAvesDespresadas":1713.58,
+							"tipo":"021"
+						},
+						{
+							"cod": "0953532646667",
+			    			"fecha": "13/01/2016",
+			    			
+			    			"titular":"Jose Mujica",
+			    			"pagar":"78.000Bsf.",
+			    			"cajasSinMora":295.5,
+							"cajasConMora":7,
+							"montoNetoDebito":27362.5,
+							"diasRecuperarCh":2,
+							"kgAvesEnteras":12713.40,
+							"kgAvesDespresadcas":1713.58,
+							"tipo":"021"
+						},
+						{
+							"cod": "082842019221",
+			    			"fecha": "06/01/2016",
+			    			
+			    			"titular":"Joao Pereira",
+			    			"pagar":"15.000Bsf.",
+			    			"cajasSinMora":295.5,
+							"cajasConMora":7,
+							"montoNetoDebito":27362.5,
+							"diasRecuperarCh":2,
+							"kgAvesEnteras":12713.40,
+							"kgAvesDespresadas":1713.58,
+							"tipo":"021"
+						}
+				]
+}

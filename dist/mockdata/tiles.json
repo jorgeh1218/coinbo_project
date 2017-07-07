@@ -1,0 +1,40 @@
+{
+	"TileCollection" : [
+		{
+			"icon" : "action-settings",
+			"type" : "Monitor",
+			"title" : "Opciones de parametrización"
+		},
+		{
+			"icon" : "activity-individual",
+			"number" : "CO",
+			"numberUnit" : "Comisiones",
+			"title" : "Cálculo de comisiones por ventas",
+			"info" : "%",
+			"press" : "toOption",
+			"infoState" : "Error"
+			
+		},
+		{
+		    "icon" : "travel-expense-report",
+		    "number" : "IN",
+			"numberUnit" : "Incentivos",
+			"type" : "Create",
+			"title" : "Cálculo de Incentivos por producción",
+			"info" : "$",
+			"press" : "toOption",
+			"infoState" : "Success"
+			
+		},
+		{
+			"icon" : "travel-expense-report",
+			"number" : "BO",
+			"numberUnit" : "Bonificaciones",
+			"type" : "Create",
+			"title" : "Cálculo de bonificaciones por transporte",
+			"info" : "$",
+			"infoState" : "Success"
+		}
+		
+	]
+}

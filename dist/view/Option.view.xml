@@ -1,0 +1,47 @@
+<mvc:View
+	controllerName="Coinbo.controller.Option"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<App>
+		<Page title="{i18n>homePageTitle}">
+		    <headerContent>
+				<Image src="{img>/products/pic1}" height="100%" width="100%"/>
+			</headerContent>
+			<subHeader>
+				<Toolbar>
+					<Button icon="sap-icon://nav-back" press="onBack"/>
+					<Label class="sapUiMediumMargin" text="Comisiones" textAlign="Center"/>
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://decline" press="onClose"/>
+				</Toolbar>
+			</subHeader>
+			<content>
+				<FlexBox class="sapUiMediumMargin" height="80%" alignItems="Center" justifyContent="Center">
+					<items>
+						<Panel class="sapThemeHighlight-asColor">
+							<content>
+				
+				
+								<Panel headerText="Opciones" width="100%">
+									<core:Icon src="sap-icon://activity-individual"	size="1.5rem" class="sapUiSmallMargin"/>
+					                <Label text="Comisión por Ventas"/>
+									<Button type="Emphasized" width="100%" text="Ver Reporte" press="toAprobar"/>
+									<Button type="Emphasized" width="100%" text="Calcular Comisiones" press="toCalcular"/>
+								</Panel>
+							</content>
+						</Panel>
+					</items>
+				</FlexBox>
+			</content>
+			<footer>
+				<Toolbar>
+					<ToolbarSpacer/>
+				    <Text text="{i18n>footPage}"
+	                      textAlign="Center"/>
+					<ToolbarSpacer/>
+				</Toolbar>
+			</footer>
+		</Page>
+	</App>
+</mvc:View>

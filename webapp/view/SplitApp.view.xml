@@ -1,0 +1,7 @@
+<mvc:View
+	controllerName="Coinbo.controller.SplitApp"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<SplitApp xmlns="sap.m" id="split_app"/>
+</mvc:View>

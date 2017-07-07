@@ -1,0 +1,13 @@
+{
+	"param":
+		{
+			"materia":{
+				"local":0.044,
+				"foraneo":0.146
+			},
+			"alimento":{
+				"local":0.02293,
+				"tucuabo":0.07875
+			}
+		}	
+}

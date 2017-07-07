@@ -1,0 +1,29 @@
+{
+	"data":
+	[
+			{
+				"checked":true,
+				"cod": "435678",
+    			"fecha": "13/01/2016",
+				"nombre":"Carmen Peña",
+				"cajas":2000,
+				"tipoEmpleado":"coordinadorM"
+			},
+			{
+				"checked":true,
+				"cod": "435678",
+    			"fecha": "15/01/2016",
+				"nombre":"Ingrid Lozada",
+				"cajas":1360,
+				"tipoEmpleado":"mecanico1"
+			},
+			{
+				"checked":true,
+				"cod": "435678",
+    			"fecha": "16/03/2016",
+				"nombre":"Carlos Mata",
+				"cajas":1500,
+				"tipoEmpleado":"supervisor"
+			}
+	]
+}

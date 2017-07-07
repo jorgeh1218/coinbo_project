@@ -1,0 +1,70 @@
+{
+	"data":[
+					{
+						"checked":true,
+						"cod": "3384",
+		    			"fecha": "11/03/2016",
+						"nombre":"Henrique Sosa",
+						"tipoEmpleado":"chofer",
+						"transportado":11841.15,
+						"destino":"local",
+						"camion":"NA",
+						"tipoAve":"polloB"
+					},
+					{
+						"checked":true,
+						"cod": "3385",
+		    			"fecha": "12/03/2016",
+						"nombre":"Valentina Barrios",
+						"tipoEmpleado":"ayudante",
+						"transportado":11841.15,
+						"destino":"foraneo",
+						"camion":"NA",
+						"tipoAve":"polloB"
+					},
+					{
+						"checked":true,
+						"cod": "3398",
+		    			"fecha": "11/03/2016",
+						"nombre":"Desiree Carmona",
+						"tipoEmpleado":"chofer",
+						"transportado":120000,
+						"destino":"foraneo",
+						"camion":"NA",
+						"tipoAve":"polloB"
+					},
+					{
+						"checked":true,
+						"cod": "33120",
+		    			"fecha": "11/03/2016",
+						"nombre":"Pedro Hernandez",
+						"tipoEmpleado":"chofer",
+						"transportado":12000,
+						"destino":"local",
+						"camion":"DYNA",
+						"tipoAve":"pollonas"
+					},
+					{
+						"checked":true,
+						"cod": "2230",
+		    			"fecha": "11/03/2016",
+						"nombre":"Elio Gorrin",
+						"tipoEmpleado":"chofer",
+						"transportado":120000,
+						"destino":"local",
+						"camion":"F750",
+						"tipoAve":"pollos"
+					},
+					{
+						"checked":true,
+						"cod": "44902",
+		    			"fecha": "11/03/2016",
+						"nombre":"Luis Carpio",
+						"tipoEmpleado":"chofer",
+						"transportado":12000,
+						"destino":"tucuabo",
+						"camion":"F750",
+						"tipoAve":"gallinas"
+					}
+				]
+}

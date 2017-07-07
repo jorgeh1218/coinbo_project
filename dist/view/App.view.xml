@@ -1,0 +1,11 @@
+<mvc:View
+	controllerName="Coinbo.controller.App"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<App xmlns="sap.m" id="app">
+		<pages>
+			<Page xmlns="sap.m" title="{i18n>homePageTitle}"/>
+		</pages>
+	</App>
+</mvc:View>

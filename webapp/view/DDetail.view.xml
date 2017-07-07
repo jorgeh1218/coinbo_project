@@ -1,0 +1,45 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar" xmlns:sap.ui.core="sap.ui.core" controllerName="Coinbo.controller.Detail">
+
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" showNavButton="true" title="Detalles" busy="{detailView&gt;/busy}" busyIndicatorDelay="{detailView&gt;/delay}">
+		<semantic:content>
+			<ObjectHeader id="objectHeader" title="{DiscontinuedDate}">
+			</ObjectHeader>
+			<IconTabBar id="iconTabBar" class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter id="iconTabBarFilter1" icon="sap-icon://hint" tooltip="{i18n&gt;detailIconTabBarInfo}">
+					<content>
+					    <Panel id="__panel0">
+					        <customData>
+					            <sap.ui.core:CustomData key="sap-ui-fastnavgroup" value="true" writeToDom="true" id="__data5"/>
+					        </customData>
+					    <content>
+					    	<Label text="Q1" width="100%" id="label0"/>
+					        <Text text="" maxLines="0" id="text0"/>
+					        <Label text="Q2" width="100%" id="label1"/>
+					        <Text text="" maxLines="0" id="text1"/>
+					        	<Label text="Q3" width="100%" id="label2"/>
+					        <Text text="" maxLines="0" id="text2"/>
+					    </content>
+					    </Panel>
+					</content>
+					</IconTabFilter>
+					<IconTabFilter id="iconTabBarFilter2" icon="sap-icon://attachment" tooltip="{i18n&gt;detailIconTabBarAttachments}">
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		
+		</semantic:content>
+		<semantic:customFooterContent> 
+			<Toolbar>
+					<content>
+						<ToolbarSpacer/>
+						<Button xmlns="sap.m" id="BtnAdd" icon="" type="Accept" text="Aprobar" press="onPress"/>
+					    <Button xmlns="sap.m" id="BtnReject" icon="" type="Reject" text="Rechazar"/>
+					</content>
+				</Toolbar>
+		</semantic:customFooterContent>
+	
+
+	</semantic:DetailPage>
+
+</mvc:View>

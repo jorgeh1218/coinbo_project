@@ -1,0 +1,15 @@
+{
+	"param":
+	
+		{
+			"prevHL":"0021",
+			"prevHF":"0022",
+			"prevMBCM":"0023",
+			"prevSBCM":"0024",
+			"autovAL":"0025",
+			"autovAF":"0026",
+			"autovHL":"0027",
+			"autovHF":"0028"
+		}
+	
+}

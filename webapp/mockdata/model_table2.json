@@ -1,0 +1,108 @@
+{
+	"data":[
+							{
+								"checked":true,
+								"cod": "435678",
+				    			"fecha": "11/01/2016",
+								"nombre":"Dania De Jesús",
+								"cajasSinMora":295.5,
+								"cajasConMora":7,
+								"montoNetoDebito":27362.5,
+								"diasRecuperarCh":2,
+								"kgAvesEnteras":12713.40,
+								"kgAvesDespresadas":1713.58,
+								"tipo":"021"
+							},
+							{
+								"checked":true,
+								"cod": "912840",
+				    			"fecha": "13/01/2016",
+								"nombre":"Verónica Montoya",
+								"cajasSinMora":95.5,
+								"cajasConMora":7,
+								"montoNetoDebito":2762.5,
+								"diasRecuperarCh":2,
+								"tipo":"021"
+							
+							},
+							{
+								"checked":true,
+								"cod": "650312",
+				    			"fecha": "14/01/2016",
+								"nombre":"José Pagés",
+								"cajasSinMora":2565.5,
+								"cajasConMora":7,
+								"montoNetoDebito":23362.5,
+								"diasRecuperarCh":2,
+								"tipo":"021"
+							},
+							{
+								"checked":true,
+								"cod": "229856",
+				    			"fecha": "12/01/2016",
+								"nombre":"Ely Blanco",
+								"cajasSinMora":300.5,
+								"cajasConMora":1,
+								"montoNetoDebito":28362.5,
+								"diasRecuperarCh":2,
+								"tipo":"021"
+							},
+							{
+								"checked":true,
+								"cod": "123539",
+				    			"fecha": "15/01/2016",
+								"nombre":"Moisés Alvarado",
+								"cajasSinMora":235.5,
+								"cajasConMora":7,
+								"montoNetoDebito":17362.5,
+								"diasRecuperarCh":2,
+								"tipo":"021"
+							},
+							{
+								"checked":true,
+								"cod": "540682",
+				    			"fecha": "18/01/2016",
+								"nombre":"Jorge Hidalgo",
+								"cajasSinMora":395.5,
+								"cajasConMora":7,
+								"montoNetoDebito":27362.5,
+								"diasRecuperarCh":2,
+								"tipo":"021"
+							},
+							{
+								"checked":true,
+								"cod": "784003",
+				    			"fecha": "18/01/2016",
+								"nombre":"Elias Sánchez",
+								"cajasSinMora":285.5,
+								"cajasConMora":7,
+								"montoNetoDebito":27362.5,
+								"diasRecuperarCh":2,
+								"tipo":"021"
+							},
+							{
+								"checked":true,
+								"cod": "123749",
+				    			"fecha": "18/01/2016",
+								"nombre":"Ivelise Díaz",
+								"cajasSinMora":305.5,
+								"cajasConMora":7,
+								"montoNetoDebito":28562.5,
+								"diasRecuperarCh":2,
+								"tipo":"021"
+							},
+							{
+								"checked":true,
+								"cod": "118396",
+				    			"fecha": "18/01/2016",
+								"nombre":"Gabriel Nuñez",
+								"cajasSinMora":295.5,
+								"cajasConMora":7,
+								"montoNetoDebito":27962.5,
+								"diasRecuperarCh":2,
+								"tipo":"025",
+								"avesEnteras":12713.40,
+								"avesDespresadas":1713.58
+							}
+						]
+}

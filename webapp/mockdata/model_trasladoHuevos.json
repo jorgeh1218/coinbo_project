@@ -1,0 +1,88 @@
+{
+	"data":[
+							{
+								"checked":true,
+								"cod": "435678",
+				    			"fecha": "11/03/2016",
+								"nombre":"Dania De Jesús",
+								"consumoHumano":true,
+								"tipoEmpleado":"chofer",
+								"tipoMovimiento":"despacho",
+								"destino":"local",
+								"transportado":776,
+								"unidad":"caja"
+							},
+							{
+								"checked":true,
+								"cod": "435678",
+				    			"fecha": "11/03/2016",
+								"nombre":"Alejandro Marval",
+								"consumoHumano":true,
+								"tipoEmpleado":"ayudante",
+								"tipoMovimiento":"despacho",
+								"destino":"local",
+								"transportado":776,
+								"unidad":"caja"
+							},
+							{
+								"checked":true,
+								"cod": "195678",
+				    			"fecha": "12/03/2016",
+								"nombre":"Carlos Nieto",
+								"consumoHumano":true,
+								"tipoEmpleado":"chofer",
+								"tipoMovimiento":"despacho",
+								"destino":"local",
+								"transportado":776,
+								"unidad":"media"
+							},
+							{
+								"checked":true,
+								"cod": "195678",
+				    			"fecha": "12/03/2016",
+								"nombre":"Kelly Sanjuan",
+								"consumoHumano":true,
+								"tipoEmpleado":"ayudante",
+								"tipoMovimiento":"despacho",
+								"destino":"local",
+								"transportado":776,
+								"unidad":"media"
+							},
+							{
+								"checked":true,
+								"cod": "12980",
+				    			"fecha": "11/03/2016",
+								"nombre":"María Arteaga",
+								"consumoHumano":true,
+								"tipoEmpleado":"contratista",
+								"tipoMovimiento":"NA",
+								"destino":"foraneo",
+								"transportado":1500,
+								"unidad":"media"
+							},
+							{
+								"checked":true,
+								"cod": "12970",
+				    			"fecha": "15/03/2016",
+								"nombre":"Leonel Vera",
+								"consumoHumano":false,
+								"tipoEmpleado":"chofer",
+								"tipoMovimiento":"NA",
+								"destino":"NA",
+								"transportado":1859.40,
+								"unidad":"NA"
+							},
+							{
+								"checked":true,
+								"cod": "12970",
+				    			"fecha": "15/03/2016",
+								"nombre":"Carlos Blanco",
+								"consumoHumano":false,
+								"tipoEmpleado":"ayudante",
+								"tipoMovimiento":"NA",
+								"destino":"NA",
+								"transportado":1859.40,
+								"unidad":"NA"
+							}
+						]
+}

@@ -1,0 +1,117 @@
+{
+    "resources": [
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/Login.view.xml"
+        },
+        {
+            "name": "view/Option.view.xml"
+        },
+        {
+            "name": "view/Inicio.view.xml"
+        },
+        {
+            "name": "view/Detail.view.xml"
+        },
+        {
+            "name": "view/View1.view.xml"
+        },
+        {
+            "name": "view/Parametrizar.view.xml"
+        },
+        {
+            "name": "view/Table2.view.xml"
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "controller/Login.controller.js"
+        },
+        {
+            "name": "controller/Inicio.controller.js"
+        },
+        {
+            "name": "controller/Option.controller.js"
+        },
+        {
+            "name": "controller/View1.controller.js"
+        },
+        {
+            "name": "controller/Detail.controller.js"
+        },
+        {
+            "name": "controller/Parametrizar.controller.js"
+        },
+        {
+            "name": "controller/Table2.controller.js"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "img/logo.jpg"
+        },
+        {
+            "name": "mockdata/img.json"
+        },
+        {
+            "name": "mockdata/books.json"
+        },
+        {
+            "name": "mockdata/keys.json"
+        },
+        {
+            "name": "mockdata/products.json"
+        },
+        {
+            "name": "mockdata/supplier.json"
+        },
+        {
+            "name": "mockdata/tiles.json"
+        },
+        {
+            "name": "mockdata/bolivaresPorCaja.json"
+        },
+        {
+            "name": "mockdata/bolivaresPorKilo.json"
+        },
+        {
+            "name": "mockdata/param.json"
+        },
+        {
+            "name": "mockdata/deduccionNotaDebito.json"
+        },
+        {
+            "name": "mockdata/penalizacion.json"
+        },
+        {
+            "name": "mockdata/recuperacionCh.json"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}

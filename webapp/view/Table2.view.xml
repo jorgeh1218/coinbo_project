@@ -1,0 +1,66 @@
+<mvc:View
+	controllerName="Coinbo.controller.Table2"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:footerbar="sap.ushell.ui.footerbar">
+	<App xmlns="sap.m">
+		<pages>
+		<Page id="calcularPage" xmlns="sap.m" title="Calcular">
+			<subHeader>
+				<Toolbar>
+					<Button icon="sap-icon://nav-back" press="onBack"/>
+					<Label id="labelTitle" class="sapUiMediumMargin" text="Comisiones" textAlign="Center"/>
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://decline" press="onClose"/>
+				</Toolbar>
+			</subHeader>
+			<content>
+				<Table id="comisionesTable"
+					mode="MultiSelect"
+					inset="false"
+					items="{path:'/data'}">
+					<headerToolbar>
+						<Toolbar>
+							<Title id="toolbarCalcular" text="Lista de Comisiones" level="H2"/>
+						</Toolbar>
+					</headerToolbar>
+					<columns>
+						<Column>
+							<Text text="Código" />
+						</Column>
+						<Column
+							hAlign="Center"
+							width="12em"
+							minScreenWidth="Tablet"
+							demandPopin="true">
+							<Text text="Empleado" />
+						</Column>
+						<Column
+							minScreenWidth="Tablet"
+							demandPopin="true"
+							hAlign="Center">
+							<Text text="Fecha" />
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem vAlign="Middle" type="Navigation">
+							<cells>
+								<Text text="{cod}" />
+								<Text text="{nombre}" />
+								<Text text="{fecha}" />
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</content><!-- sap.ui.core.Control -->
+			<footer>
+				<Toolbar>
+				<ToolbarSpacer/>
+				<Button text="Calcular" type="Accept" press="onCalculate"/>
+			</Toolbar>
+			</footer>	
+		</Page>
+		</pages><!-- sap.ui.core.Control -->
+	</App>
+</mvc:View>

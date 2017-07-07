@@ -1,0 +1,44 @@
+{
+	"data":[
+					{
+						"checked":true,
+						"cod": "99012",
+		    			"fecha": "16/03/2016",
+						"nombre":"Manuel Sanz",
+						"tipoEmpleado":"administrador",
+						"viabilidad":0.04,
+						"ca":1.7,
+						"edadPonderada":42,
+						"tipoNucleo":"pollo"
+					},
+					
+					
+					
+					{
+						"checked":true,
+						"cod": "88922",
+		    			"fecha": "16/03/2016",
+						"nombre":"Gerardo Mascia",
+						"tipoEmpleado":"administrador",
+						"avesIniciales":70000,
+						"avesEntregadas":68000,
+						"tipoNucleo":"pollona",
+						"seguridadHigiene":true
+					},
+					
+					
+					{
+						"checked":true,
+						"cod": "99012",
+		    			"fecha": "16/03/2016",
+						"nombre":"José Carrillo",
+						"tipoEmpleado":"administrador",
+						"avesIniciales":70000,
+						"avesEntregadas":69500,
+						"tipoNucleo":"postura",
+						"seguridadHigiene":true,
+						"nucleo":"veritas"
+					}
+					
+				]
+}

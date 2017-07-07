@@ -1,0 +1,9 @@
+{
+	"param":
+	{
+		"0":{"cantidad":8000, "pagar":2.4},
+		"1":{"cantidad":14000, "pagar":9.6},
+		"2":{"cantidad":600, "pagar":17},
+		"3":{"cantidad":600, "pagar":22}
+	}
+}

@@ -1,0 +1,45 @@
+<mvc:View xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:NavigationBar="sap.ui.ux3.NavigationBar" xmlns:footerbar="sap.ushell.ui.footerbar" xmlns:sap.ui.core="sap.ui.core" controllerName="Coinbo.controller.View1"><App xmlns="sap.m">
+		<pages>
+		<Page id="pageTitle" xmlns="sap.m" title="Aprobar">
+			<subHeader>
+				<Toolbar>
+					<Button icon="sap-icon://nav-back" press="onBack"/>
+					<Label id="labelTitle" class="sapUiMediumMargin" text="Comisiones" textAlign="Center"/>
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://decline" press="onClose"/>
+				</Toolbar>
+			</subHeader>
+			<content>
+	            <Table id="VTable" mode="MultiSelect" inset="false" selectionChange="onItemSelect" items="{path:'/data'}" itemPress="onPress">
+					<columns>
+						<Column>
+							<Text text="Reporte"/>
+						</Column>
+						<Column>
+							<Text text="Fecha"/>
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem vAlign="Middle" type="Navigation">
+							<cells>
+								<Text text="{cod}"/>
+									<Text text="{fecha}"/>
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			<!--	-->
+			</content><!-- sap.ui.core.Control -->
+			<footer>
+				<Toolbar>
+					<content>
+						<ToolbarSpacer/>
+						<Button xmlns="sap.m" id="BtnAdd" icon="" type="Accept" text="Aprobar" press="onPress"/>
+					    <Button xmlns="sap.m" id="BtnReject" icon="" type="Reject" text="Rechazar"/>
+					</content>
+				</Toolbar>
+			</footer>	
+		</Page>
+		</pages><!-- sap.ui.core.Control -->
+	</App>
+</mvc:View>
